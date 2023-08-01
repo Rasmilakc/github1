@@ -93,7 +93,7 @@ public class day18a {
 		 System.out.println(cities.size());
 		 System.out.println(cities);
 		 
-		 // [pune, banglore, kolkata, chennai, pune]
+		 // [irving, tokyo, kathmandu, plano, austin]
 		 
 		 System.out.println(cities.indexOf("plano"));
 		 System.out.println(cities.lastIndexOf("plano"));
