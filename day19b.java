@@ -18,6 +18,26 @@ public class day19b {
 		
 		for (Map.Entry<String, String> entry : course.entrySet()) {
 			System.out.println(entry.getKey() + entry.getValue());
+
+
+                //program 2
+
+			Map<String, String> students = new HashMap<String, String>();
+				students.put("firstName", "rasmila");
+				students.put("lastName", "khatri");
+				students.put("rollNo", "1");
+				students.put("age", "30");
+				students.put("skills", "walking");
+				
+				for(String prop:students.keySet()) {
+					System.out.println(prop);
+				}
+				
+				for(String prop:students.values()) {
+					System.out.println(prop);
+				}
+
+			
 		
 		}
 		
